@@ -21,7 +21,7 @@ docker run --rm -v $(pwd):/data sep sourcextractor++ --dump-default-config > dat
 
 ### Getting possible properties
 ```bash
-docker run --rm -v $(pwd):/data sep sourcextractor++ --property-column-mapping-all>data
+docker run --rm -v $(pwd):/data sep sourcextractor++ --property-column-mapping-all>all_props.txt
 ```
 
 ### Running the program
